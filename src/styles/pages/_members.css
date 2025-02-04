@@ -20,6 +20,14 @@
     line-height: 2.4rem;
 }
 
+@media (min-width: 768px) {
+    .about-container {
+        flex-direction: row;
+        padding-block: 3.5rem;
+        gap: 12.5rem;
+    }
+}
+
 /* Listings */
 .listings {
     width: 100%;
@@ -27,11 +35,34 @@
 .listings-container {
     padding-block: 2rem;
 }
-.listings-card-container {
+.hobbies-container, .films-container {
     display: flex;
     gap: 3rem;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+@media (min-width: 1024px) {
+    .listings > .container {
+        display: flex;
+        gap: 3.2rem;
+        padding-block: 3.5rem;
+        justify-content: center;
+    }
+    .listings-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .hobbies-listings-container {
+        align-items: end;
+    }
+    .hobbies-container {
+        flex-direction: row-reverse;
+        justify-content: end;
+    }
+    .films-container {
+        justify-content: start;
+    }
 }
 
 /* Feedback */
@@ -40,4 +71,13 @@ form {
     flex-direction: column;
     align-items: center;
     gap: 1.6rem;
+}
+
+@media (min-width: 768px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1.6rem;
+    }
 }

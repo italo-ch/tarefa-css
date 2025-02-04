@@ -34,3 +34,11 @@
     width: 30px;
     height: 30px;
 }
+
+@media (min-width: 768px) {
+    .footer-container {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding-block: 3.2rem;
+    }
+}
