@@ -3,33 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INnovators | Home</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <title>Italo Chiaradia</title>
+    <link rel="stylesheet" href="../styles/main.css">
 </head>
 <body>
-    <header>
-        <h1>INnovators 💡</h1>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="title">Italo C.</h1>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="nav-links">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <hr>
     <main>
-        <section>
-            <h2>Nosso grupo</h2>
-            <p>O <strong>INnovators</strong> é um grupo formado por jovens talentos apaixonados por tecnologia e inovação, com o objetivo de criar soluções criativas e impactantes. Com uma abordagem colaborativa e focada no desenvolvimento de projetos que unem conhecimento técnico e criatividade, o grupo busca transformar ideias em realidade, enfrentando desafios de forma estratégica e eficiente.</p>
+        <section class="about">
+            <div class="about-container container">
+                <img src="https://avatars.githubusercontent.com/u/102377060?v=4" alt="foto do italo chiaradia" class="profile-img">
+                <div>
+                    <h2 class="subtitle">Sobre mim</h2>
+                    <div class="description">
+                        <p>
+                            Sou Italo Chiaradia, alguém que está sempre aprendendo e buscando evoluir. Tenho um grande interesse por tecnologia, redes de computadores e segurança da informação, mas também gosto de explorar diferentes áreas do conhecimento.  
+                        </p>
+                        <p>
+                            Acredito na importância da disciplina e do aprimoramento constante, tanto na vida profissional quanto pessoal. Gosto de desafios que me fazem crescer e estou sempre aberto a novas perspectivas. Seja estudando, programando ou simplesmente refletindo sobre o mundo, estou em busca de evolução. 🚀
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>Italo Chiaradia</h2>
-            <p>Sou Italo Chiaradia, apaixonado por tecnologia e sempre em busca de aprendizado e evolução. Gosto de enfrentar desafios que me ajudam a crescer, tanto no lado profissional quanto pessoal. 🚀</p>
+        <section class="listings">
+            <div class="container">
+                <section class="listings-container hobbies-listings-container">
+                    <h2 class="subtitle">Hobbies</h2>
+                    <ul class="listings-card-container hobbies-container">
+                        <li class="listings-card">
+                            <img src="/images/hobbies/reading.jpg" alt="Hobby: Leitura">
+                            <span>Leitura</span>
+                        </li>
+                        <li class="listings-card">
+                            <img src="/images/hobbies/gym.jpg" alt="Hobby: Academia">
+                            <span>Academia</span>
+                        </li>
+                        <li class="listings-card">
+                            <img src="/images/hobbies/movies.jpg" alt="Hobby: Filmes">
+                            <span>Filmes</span>
+                        </li>
+                        <li class="listings-card">
+                            <img src="/images/hobbies/swimming.jpg" alt="Hobby: Natação">
+                            <span>Natação</span>
+                        </li>
+                        <li class="listings-card">
+                            <img src="/images/hobbies/travel.jpg" alt="Hobby: Viajar">
+                            <span>Viajar</span>
+                        </li>
+                    </ul>
+                </section>
+                <section class="listings-container">
+                    <h2 class="subtitle">Top 5 filmes</h2>
+                    <ol class="listings-card-container films-container">
+                        <li class="listings-card">
+                            <img src="/images/movies/lotr1.jpg" alt="Filme top 1: senhor dos aneis 1">
+                            <span>Senhor dos anéis 1</span>
+                            <span class="order-num">1</span>
+                        </li>
+                        <li class="listings-card">
+                            <img src="/images/movies/lotr2.jpg" alt="Filme top 2: senhor dos aneis 2">
+                            <span>Senhor dos anéis 2</span>
+                            <span class="order-num">2</span>
+                        </li>
+                        <li class="listings-card">
+                            <img src="/images/movies/lotr3.jpg" alt="Filme top 3: senhor dos aneis 3">
+                            <span>Senhor dos anéis 3</span>
+                            <span class="order-num">3</span>
+                        </li>
+                        <li class="listings-card">
+                            <img src="/images/movies/godfather.jpg" alt="Filme top 4: Poderoso Chefão">
+                            <span>Poderoso Chefão</span>
+                            <span class="order-num">4</span>
+                        </li>
+                        <li class="listings-card">
+                            <img src="/images/movies/shrek2.jpg" alt="Filme top 5: Shrek 2">
+                            <span>Shrek 2</span>
+                            <span class="order-num">5</span>
+                        </li>
+                    </ol>
+                </section>
+            </div>
         </section>
-        <section>
-            <h2>Páginas de cada membro: </h2>
-            <a href="/src/members/italo-chiaradia.html">Italo Chiaradia</a>
-            <br>
+        <section class="feedback">
+            <div class="container">
+                <h2 class="subtitle">Feedbacks: </h2>
+                <form>
+                    <input name="name" type="text" placeholder="Digite seu nome aqui!" class="input">
+                    <textarea name="feedback" placeholder="Dê um feedback para esse desenvolvedor!" class="input"></textarea>
+                    <input type="submit" value="Enviar" class="button">
+                </form>
+            </div>
         </section>
     </main>
-    <hr>
-    <footer>
-        <h2>Transformando desafios em soluções</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d918.7954638405051!2d-43.133932873649734!3d-22.906662305722964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99817e444e692b%3A0xfd5e35fb577af2f5!2sUFF%20-%20Instituto%20de%20Computa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1738599503190!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer class="footer">
+        <div class="footer-container container">
+            <a href="#" class="contact-btn">Entrar em contato</a>
+            <div class="social-links">
+                <a href="https://github.com/italo-ch" target="_blank">
+                    <img src="/images/social-icons/github.png">
+                </a>
+                <a href="https://www.linkedin.com/in/italo-chiaradia-92b653228/" target="_blank">
+                    <img src="/images/social-icons/linkedin.png">
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
