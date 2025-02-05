@@ -18,6 +18,9 @@ A tarefa consiste na estilização da sua página individual, criada na Tarefa d
 
 3. Abra no navegador
 
+## Acesso ao projeto
+[https://tarefa-css.netlify.app/](https://tarefa-css.netlify.app/)
+
 ## Autores
 
 - [Italo Chiaradia](https://github.com/italo-ch)
