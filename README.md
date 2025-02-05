@@ -1,17 +1,24 @@
-## Instalação
+# Tarefa CSS | IN Junior 🐺
 
-1. Clone o repositório:
+A tarefa consiste na estilização da sua página individual, criada na Tarefa de HTML, utilizando os conceitos aprendidos nas aulas de CSS
+
+## Rodando localmente
+
+1. Clone o projeto
+
 ```bash
-git clone https://github.com/italo-ch/tarefa-html
+  git clone https://github.com/italo-ch/tarefa-css
 ```
-2. Faça as modificações necessárias
-3. Envie as alterações para o repositório remoto:
+
+2. Entre no diretório do projeto
+
 ```bash
-git push origin main
+  cd tarefa-css
 ```
 
-## Como rodar localmente
+3. Abra no navegador
 
-- Faz o download do plugin live-server (se estiver usando vscode)
-- clica com botão direito do mouse no index.html da pasta src
-- Selecione 'Open with live server'
+## Autores
+
+- [Italo Chiaradia](https://github.com/italo-ch)
+
