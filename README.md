@@ -1,5 +1,7 @@
 # Tarefa CSS | IN Junior 🐺
 
+![App Screenshot](/screenshot.png)
+
 A tarefa consiste na estilização da sua página individual, criada na Tarefa de HTML, utilizando os conceitos aprendidos nas aulas de CSS
 
 ## Rodando localmente
